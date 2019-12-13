@@ -1,12 +1,12 @@
 // Mixins Here
-.customButton(){
+.customButton(@bg-Color,@align){
     display: block;
-    background-color:@btn-bg-color;
+    background-color:@bg-Color;
     margin: 0 10px 20px;
     cursor: pointer;
     width: 120px;
     height: 50px;
-    text-align: center;
+    text-align: @align; //center
     vertical-align: middle;
     font-size: 2rem;
     color:white;
@@ -14,14 +14,16 @@
     border-radius: 8px;
     };
 
-.centerWithSpace(){
+.customCenter(){
     display: flex;
     justify-content:space-between;
     align-items: center;
-    }
+    };
 
 .center(){
     display: flex;
     justify-content:center;
     align-items: center;
-}
+};
+
+

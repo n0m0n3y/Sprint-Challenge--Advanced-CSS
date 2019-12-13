@@ -1,14 +1,23 @@
 // Navigation code here
 nav{ 
-.centerWithSpace();
+.customCenter();
 font-size: 2rem;
 padding: 2% 23%;
 
 a{
     text-decoration: none; /* no underline */
     color: black;
-}
 
+}
+@media @phone {
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 100%; 
+        padding: 2% 9.5%;
+        }
 
 }//nav
 
@@ -16,4 +25,10 @@ h1{
     .center();
     font-size: 4rem;
     padding: 2%;
+    @media @phone {
+        flex-direction: column;
+        justify-content: space-evenly;}
+        
+    
 }
+
