@@ -133,3 +133,35 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+
+
+
+
+
+1. what is the difference between an adaptive website and a fully responsive website? 
+
+
+the difference is responsive uses all type fixed  adaptive fluid grids a design that works no matter what the screen size is while adaptive there isn’t one layout instead there are several distinct layouts for multiple screen sizes with media break points.
+
+
+2. Describe what it means to be mobile first vs desktop first. 
+
+
+It means to build it up for mobile first and then make it desktop responsive. so instead of max-width we would start with min-width.
+so it means weather its built for the desktop or built for the mobile. 
+
+5. What does font-size: 62.5% in the html tag do for us when using rem units? 
+
+makes it easier to do the math as that’s === to 16px the standard and also user-configurable. rems are a ay to set the the font-size based off the font size of the root html element .
+
+
+6. How would you describe preprocessing to someone new to CSS? 
+
+
+it is a program that makes css so much easier using its own syntax making it easier to read and maintain.
+
+
+7. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? 
+
+
+my favorite is that its compiling as i code but i hate having to control c and stop it every time i want to commit and push to GitHub.
